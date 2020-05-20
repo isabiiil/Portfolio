@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+            <meta charset = "UTF-8">
+            <title>Isabel Abonitalla</title>
+            <meta name = "viewport" content = "width=device-width, initial-scale=1">
+            <link rel = "shortcut icon" type = "image/png" href = "res/logo.png" />
+
+        <!-- CSS Stylesheets and Fonts -->
+            <!-- <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+            <link rel = "stylesheet" href = "./css/styles.css">
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+            <script src="/__/firebase/7.14.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+
+        <!-- Initialize Firebase -->
+            <script src="/__/firebase/init.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165305334-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-165305334-1');
+        </script>
+
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5THLHHC');</script>
+        <!-- End Google Tag Manager -->
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5THLHHC"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <!-- Begin actual content -->
+        <div id = "main-card">
+            <!-- Landing Section -->
+            <div id = "landing-container">
+                <div id = "landing-overlay">
+                    <div id = "intro-text">
+                        <h1 class="mobile-hide">Hi!</h1>
+                        <h1 class="mobile-only">Hi! I'm</h1>
+                        <div class = "rotating-text">
+                            <h1 class = "mobile-hide">I'm </h1>
+                            <h1>
+                                <span class = "word col1">Isabel.</span>
+                                <span class = "word col2">a CS/bio student.</span>
+                                <span class = "word col3">a software developer.</span>
+                                <span class = "word col4">a data scientist.</span>
+                            </h1>
+                        </div>
+                        <p id = "prev-exp">CUNY Hunter College | HAX | Fiera Capital Inc.</p>
+                    </div>
+                    <div id = "intro-arrow">
+                        <div class = "arrow-part">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <canvas id = "canvas"></canvas>
+            </div>
+
+            <!-- Personal Bio Section-->
+            <div class = "main-container" id = "bio-container">
+                <div id = "biography">
+                    <h2>
+                    <span class = "hover">about.</span>
+                    </h2>
+                    <p id = "bio-body">
+                        As a computer science and biology student, I hope to gain skills and hands-on experience in both medicine and technology. I would also like to gain experience and exposure to different fields and industries along the way. Ultimately, I plan on working at the intersection of biomedicine and data science to improve patient outcomes with extensive and well-communicated information.
+                    <br />
+                    <br />
+                        Outside of programming and academics, I take care of my furball Terry. I also enjoy watching dramatic TV shows, playing video games, eating too much fastfood and walking the streets of New York City.
+                    </p>
+                    <p><div id = "contact-buttons">
+                        <a href = "mailto:isabelabonitalla@gmail.com" target="_blank">[email]</a>
+                        <a href = "https://www.linkedin.com/in/isabelabonitalla/" target="_blank">[linkedin]</a>
+                        <a href = "https://twitter.com/isabiiil" target="_blank">[twitter]</a>
+                        <a href = "https://github.com/isabiiil/" target="_blank">[github]</a>
+                        <a href = "https://www.notion.so/isa23/dc6bd67fdcda4f2abc692e0ff3b7667e?v=2e8e35b416794fa385e504d587945f00">[blog]</a>
+                        <a href = "https://dnabarcoding101.org/files/uploads/0000/tenoever-1537-poster-6D3A.pdf">[virology research]</a>
+                        <a href = "msAbstract.pdf">[neurology research]</a>
+                    </div></p>
+                </div>
+            </div>
+
+            <!--Featured Works Section-->
+            <div class = "main-container" id = "feature-container">
+                <div id = "feature">
+                    <h2>
+                        <span class = "hover">featured news.</span>
+                    </h2>
+                    <p id = "feature-body">
+                        <ul>
+                            <li>
+                                <a target = "_blank" href = "https://top.mlh.io/2020/profiles/isabel-abonitalla">I was named one of Major League Hacking's Top 50 Hackers in 2020. Out of 100,000 students who participated in hackathons, my story was one of 50 that was recognized on this list due to my projects and impact on other students in the community.</a>
+                            </li><br /><br />
+                            <li>
+                                <a target = "_blank" href = "https://youtu.be/ae2pofZ5L1Q">The co-founders of Shine, Naomi Hirabayashi and Marah Lidey, sit with Isabel, computer science student, to talk about shifting workspace culture to celebrate an employee's whole self and life outside of work.</a>
+                            </li><br /><br />
+                            <li>
+                                <a target = "_blank" href = "https://njbiz.com/njii-code-thon-focuses-maternal-mortality-morbidity/">NJII Code-a-thon focuses on Maternal Mortality and Morbidity.</a>
+                            </li><br /><br />
+                            <li>
+                                <a target = "_blank" href = "https://www.youtube.com/watch?v=-R3UXu-Ztn8">Consortium Alumni Youth Council member Isabel Abonitalla talks about her experience in the Urban Barcode Research Project and the Hypothekids HK Maker Lab Program.</a>
+                            </li><br /><br />
+                            <li>
+                                <a target = "_blank" href="https://www.cshl.edu/labdish/how-cool-is-science-students-use-barcoded-dna-to-identify-a-weapon-against-antibiotic-resistance/">How cool is science? Students use barcoded DNA to identify a weapon against antibiotic resistance.</a>
+                            </li><br /><br />
+                            <li>
+                                <a target = "_blank" href="https://www.youtube.com/watch?v=CKKF8KxN0vc&feature=youtu.be">HK Maker Lab is our 6 week intensive biomedical engineering design program for 24 New York City high school students.</a>
+                            </li><br /><br />
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class = "main-container" id = "experience-container">
+                <div id = "experience">
+                    <h2>
+                        <span class = "hover">experience</span>
+                    </h2>
+                    <div id = "experience-body">
+                        <div id = "logoLeft">
+                            <img class = "workLogo" src = "./res/caribou.png" alt = "Caribou Health" onclick = "viewCaribouDesc()" />
+                            <img class = "workLogo" src = './res/fiera.jpeg' alt = "Fiera Capital Inc." onclick = "viewFieraDesc()" />
+                            <img class = "workLogo" src = './res/hax.png' alt = "HAX" onclick = "viewHAXDesc()" />
+                            <img class = "workLogo" src = './res/cuny.jpeg' alt = "City University of New York" onclick = "viewCUNYDesc()" />
+                            <img class = "workLogo" src = './res/kt.jfif' alt = "Khan's Tutorial" onclick = "viewKTDesc()"/>
+                            <img class = "workLogo" src = './res/rwjbh.png' alt = "Robert Wood Johnson Barnabas Health" onclick = "viewRWJBHDesc()" />
+                            <img class = "workLogo" src = './res/Columbia.jpg' alt = "Columbia University Irving Medical Center" onclick = "viewCUMCDesc()"/>
+                            <img class = "workLogo" src = './res/sinai.jpg' alt = "Icahn School of Medicine at Mount Sinai" onclick = "viewSinaiDesc()"/>
+                            <img class = "workLogo" src = './res/columbia-engineering.png' alt = "The Fu Foundation School of Engineering and Applied Sciences at Columbia University" onclick = "viewHKDesc()"/>
+                        </div>
+                        <div id = "descRight">
+                            <p id = "descInstructions">Choose an company logo on the left to learn more.</p>
+                            <div id = "descCaribou">
+                                <h3>
+                                    WEB DEVELOPMENT INTERN | CARIBOU HEALTH <br />
+                                    May 2020 - Present
+                                </h3>
+                                <p>
+                                    ▪ Develop components for web-based healthcare platform
+                                </p>
+                            </div>
+                            <div id = "descFiera">
+                                <h3>
+                                    OPERATIONS & IT INTERN | FIERA CAPITAL INC. <br />
+                                    January 2020 - May 2020
+                                </h3>
+                                <p>
+                                    ▪ Developed an API that pulls data from the FBI's crime reports to calculate Environmental, Social and Corporate Governance criteria used for investments.
+                                    <br /><br />
+                                    ▪ Leveraged Office 365 applications (PowerApps, Flows, SharePoint) to optimize account event tracking, thereby minimizing redundant data entry and other manual tasks done by the Accounts Services team
+                                    <br /><br />
+                                    <em>Fiera Capital Corporation is a global independent asset management firm with over $124 billion in AUM as of September 30, 2019, more than $25 billion of which is managed or advised by the U.S. division. We deliver customized multi-asset solutions across traditional and alternative asset classes to institutional, retail and private wealth clients across North America, Europe and key markets in Asia. We strive to be at the forefront of investment-management science and we are passionate about creating sustainable wealth for clients.</em>
+                                </p>
+                            </div>
+                            <div id = "descHAX">
+                                <h3>
+                                    DIRECTOR OF INTERNAL AFFAIRS & OPERATIONS | HAX <br />
+                                    March 2019 - Present
+                                </h3>
+                                <p>
+                                    ▪ Promoted to director within 5 months of managing the design team in the creation of graphics & social media posts and the maintenance of branding standards
+                                    <br /><br />
+                                    ▪ Streamline onboard of volunteers & mentees to lower attrition rate
+                                    <br /><br />
+                                    ▪ Manage nonprofit compliance, financial reports, logistics, quarterly goals, and maintenance of guidelines & standards
+                                    <br /><br />
+                                    <em>As a nonprofit, HAX aims to globalize computer science education for all by hosting hackathons as a way to provide equal opportunities for women and disadvantaged minorities. We are guided by our three core values: inclusiveness, accessibility, and education. We emphasize these values through our hackathons that are catered towards educating and empowering women and minorities to pursue computer science and using it for social good.</em>
+                                </p>
+                            </div>
+                            <div id = "descCUNY">
+                                <h3>
+                                    DATA ANALYTICS INTERN | CITY UNIVERSITY OF NEW YORK: REGISTRAR <br />
+                                    July 2019 - August 2019
+                                </h3>
+                                <p>
+                                    ▪ Collaborating with a team of 6 to collect, organized and analyzed educational and institutional records for student enrollments
+                                    <br /><br />
+                                    ▪ Researched and standardized the records of over 250 comprehensive courses offered by the CUNY system
+                                    <br /><br />
+                                    ▪ Validated over 1400 records of institutions from CUNY applications
+                                    <br /><br />
+                                    ▪ Tested and debugged Schedule Builder, a student-facing software application that allows them to optimize their class schedules
+                                    <br /><br />
+                                    <em>The Office of the University Registrar serves to ensure academic integrity by communicating institutional policies and is a resource for all members of the college community. OUR fosters an environment that supports students, alumni, faculty, administrators, staff and the community in order to promote the educational mission of the University. The Office of the University Registrar monitor university practices and procedures and recommend changes to ensure the most accurate, efficient and prompt service.</em>
+                                </p>
+                            </div>
+                            <div id = "descKT">
+                                <h3>
+                                    QUALITY MANAGER | HIGH SCHOOL ACHIEVEMENT PROGRAM AT KHAN’S TUTORIAL<br />
+                                    March 2017 - March 2019
+                                </h3>
+                                <p>
+                                    ▪ Promoted to manager within 7 months of instructing over 70 students
+                                    <br /> <br />
+                                    ▪ Yielded a 20% increase in sales and enrollments; enabled over 239 students get 88th percentile on SAT and over 252 students get over a 90 on state exams
+                                    <br /><br />
+                                    ▪ Spearheaded the creation of a more efficient student database for the SAT program
+                                    <br /><br />
+                                    ▪ Supervise and collaborate with 5 instructors who teach over 210 enrolled students for state exams and the SAT
+                                    <br /><br />
+                                    ▪ Manage classroom logistics; office and technical inventory; and company finances
+                                    <br /><br />
+                                    <em>Khan’s Tutorial is a tutoring academy founded in 1994 with 11 locations and over 300 highly-trained instructors. The High School Achievement Program prepares students to excel in high school and gain acceptance to the top colleges of their choice with financial aid and scholarships by providing subject tutoring, standardized test-prep, and mentorship through weekend sessions, small group classes, and daily classwork and homework from a specialized and challenging curriculum.</em>
+                                </p>
+                            </div>
+                            <div id = "descRWJBH">
+                                <h3>
+                                    NURSING INFORMATICS INTERN | ROBERT WOOD JOHNSON UNIVERSITY HOSPITAL<br />
+                                    January 2019
+                                </h3>
+                                <p>
+                                    ▪ Educated nursing directors on using HealthGrid for electronic medical records and optimizing patient experience
+                                    <br /><br />
+                                    ▪ Debugged and troubleshooted Find Your Way, the in-house navigation app
+                                    <br /><br />
+                                    <em>The Nursing Informatics Department is an interdisciplinary team who research, educate, implement, and maintain technology to promote and ensure high quality patient care and patient safety while motivating and leading the nursing team.</em>
+                                </p>
+                            </div>
+                            <div id = "descCUMC">
+                                <h3>
+                                    RESEARCH ASSOCIATE | COLUMBIA UNIVERSITY IRVING MEDICAL CENTER<br />
+                                    June 2017 - August 2018
+                                </h3>
+                                <p>
+                                    ▪ Applied machine learning algorithms to classify multiple sclerosis variants based on proton spectroscopy data from the human brain
+                                    <br /><br />
+                                    ▪ Developed algorithm using R Studio with over 72% accuracy in classifying multiple sclerosis variants in patients
+                                    <br /><br />
+                                    <em>The MR-Science Laboratory pursues MR engineering in the fields of magnetic resonance imaging (MRI), spectroscopy (MRS) and spectroscopic imaging (MRSI) to advance their clinical potential for the study of neurodegenerative diseases. To this end, MR method developments are combined with state-of-the-art MRI, MRS and MRSI techniques to derive in vivo direct knowledge of the pathobiochemistry underlying clinical conditions such as multiple sclerosis, diabetes or post-traumatic stress disorder (PTSD).</em>
+                                </p> 
+                            </div>
+                            <div id = "descSinai">
+                                <h3>
+                                    RESEARCH INTERN | ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI<br />
+                                    April 2016 - May 2017
+                                </h3>
+                                <p>
+                                    ▪ Identified novel phage by characterizing soil biomes using next-generation sequencing
+                                    <br /><br />
+                                    ▪ Participated in preparatory classes in Conservation Biology & DNA Barcoding
+                                    <br /><br />
+                                    <em>The tenOever lab [pronouced ‘ten-oo-ver’, like maneuver with a ‘T’.] is interested in the way cells have evolved to defend themselves against virus infection.  More specifically, the lab focuses on what constitutes different cellular defense systems, how these systems have been shaped over time, and how viruses circumvent them and cause disease.</em>
+                                </p>
+                            </div>
+                            <div id = "descHK">
+                                <h3>
+                                    STUDENT INTERN | FU FOUNDATION SCHOOL OF ENGINEERING AND APPLIED SCIENCE<br />
+                                    July 2016 - August 2016
+                                </h3>
+                                <p>
+                                    ▪ Prototyped & tested a guidance system for the visually impaired using ultrasonic sensors placed on glasses accompanied by speakers
+                                    <br /><br />
+                                    ▪ Devised a business plan & presentation for a panel of biomedical professionals
+                                    <br /><br />
+                                    <em>The Hk Maker Lab is an intensive six-week summer program to learn the foundations of design. Focusing on addressing a health problem, participants will design, prototype and test a biomedical device and develop an associated business plan. The program will culminate in a presentation to leading executives from the biomedical community. The Hk Maker Lab projects might then be incubated using the state-of-the-art facilities at Harlem Biospace.</em>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class = "main-container" id = "projects-container">
+                <div class = "projects">
+                    <h2>
+                        <span class = "hover">projects</span>
+                    </h2>
+                    <div class = "projects-body">
+                        <img class = "screen" src = "./res/accountwin.png" alt = "AccounTwin" />
+                        <img class = "screen" src = "./res/newlab.png" alt = "NYC COVID Data" />
+                        <!-- Home Buyers image-->
+                        <img class = "screen" src = "./res/smartspray.jpg" alt = "SmartSpray" />
+                        <!-- House.py image -->
+                        <!-- Enviro Image -->
+                        <img class = "screen" src = "./res/femmecare.png" alt = "FemmeCare" />
+                        <img class = "screen" src = "./res/scholars.png" alt = "Scholars at Risk" />
+                        <img class = "screen" src = "./res/reunited.jpg" alt = "Reunited" />
+                        <img class = "screen" src = "./res/captain.jpg" alt = "Captain Planet" />
+                        <img class = "screen" src = "./res/symp.png" alt = "MySympTracker" />
+                        <img class = "screen" src = "./res/mama.png" alt = "MamaCare" />
+                        <!-- Know Your School Image -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load JS stuff -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script  src="./script.js"></script>
+    </body>
+</html>
