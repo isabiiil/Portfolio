@@ -6,10 +6,94 @@
     width: 100%;
 }
 
+.projects-body {
+    min-height: 50vh;
+}
+
 .screen {
     width: 100%;
-    margin: 5px;
+    margin: 20px 0 20px 0;
     border: solid #000;
     border-width: 1px;
     border-radius: 15px;
+}
+
+.projectDescription {
+    height: auto;
+    width: 100%;
+    display: none;
+}
+
+#projInstructions {
+    display: block;
+    margin: 25px;
+}
+
+.infoLeft {
+    display: block;
+    float: left;
+    width: 35%
+}
+
+.desRight {
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+.techStack {
+    font-family: "Courier Prime", monospace !important;
+    margin-top: 25px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: var(--orange);
+    color: var(--lightgray);
+    padding: 10px;
+    font-size: 1.6em;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quasimoda';
+}
+
+/* The container <div> - needed to position the dropdown content */
+.projectChooser {
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat';
+}
+
+/* Dropdown Content (Hidden by Default) */
+.projectList {
+    display: none;
+    position: absolute;
+    background-color: var(--lightgray);
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.projectList a {
+    color: var(--dark);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.projectList a:hover {
+    background-color: var(--gray)
+}
+
+/* Show the dropdown menu on hover */
+.projectChooser:hover .projectList {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.projectChooser:hover .dropbtn {
+    filter: brightness(80%);
 }

@@ -52,22 +52,25 @@ h2 {
     font-family: 'Quasimoda';
     font-weight: 700;
     font-size: 3em;
-    color: var(--dark)
 }
-em {
-    font-style: italic;
+h3 {
+    font-family: 'Quasimoda';
+    font-size: 1.8em;
 }
-h3,h4,h5,h6{
+
+h4,h5,h6{
     font-family: 'Quasimoda';
 }
 p {
     display: block;
-    color: var(--dark);
     font-family: 'Montserrat';
     font-size: 1.1em;
     margin-top: 0;
     line-height: 1.4;
     letter-spacing: 0.05em;
+}
+em {
+    font-style: italic;
 }
 .hover {
     color: var(--dark);
@@ -102,11 +105,17 @@ a:hover {
     color: var(--pink);
 }
 
+#footer {
+    text-align: center;
+    font-size: 0.8em;
+    display: block;
+    margin: 100px 0 50px 0;
+    clear: both;
+}
 
 /* Shared CSS */
 #biography, #feature, #experience, #projects {
     float: left;
-    /* flex: 0 0 60%; */
     line-height: 1.0;
     width: 100%;
 }

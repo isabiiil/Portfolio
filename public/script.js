@@ -215,119 +215,136 @@ $("#landing-container").click(function() {
 
 
 // Experience descriptions
-function viewCaribouDesc() {
-  document.getElementById("descCaribou").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
+// function viewCaribouDesc() {
+//   document.getElementById("descCaribou").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewFieraDesc() {
+//   document.getElementById("descFiera").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewHAXDesc() {
+//   document.getElementById("descHAX").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewCUNYDesc() {
+//   document.getElementById("descCUNY").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewKTDesc() {
+//   document.getElementById("descKT").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewRWJBHDesc() {
+//   document.getElementById("descRWJBH").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewCUMCDesc() {
+//   document.getElementById("descCUMC").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewSinaiDesc() {
+//   document.getElementById("descSinai").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+//   document.getElementById("descHK").style.display = "none";
+// }
+
+// function viewHKDesc() {
+//   document.getElementById("descHK").style.display = "block";
+//   document.getElementById("descInstructions").style.display = "none";
+//   document.getElementById("descCaribou").style.display = "none";
+//   document.getElementById("descFiera").style.display = "none";
+//   document.getElementById("descHAX").style.display = "none";
+//   document.getElementById("descCUNY").style.display = "none";
+//   document.getElementById("descKT").style.display = "none";
+//   document.getElementById("descRWJBH").style.display = "none";
+//   document.getElementById("descSinai").style.display = "none";
+//   document.getElementById("descCUMC").style.display = "none";
+// }
+function viewWorkDesc(jobID) {
+  var hide = document.getElementsByClassName("workDescription");
+  for (i = 0; i < hide.length; i++) {
+    hide[i].style.display = "none"
+  }
+  document.getElementById(jobID).style.display = "block"; 
 }
 
-function viewFieraDesc() {
-  document.getElementById("descFiera").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
 
-function viewHAXDesc() {
-  document.getElementById("descHAX").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
-
-function viewCUNYDesc() {
-  document.getElementById("descCUNY").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
-
-function viewKTDesc() {
-  document.getElementById("descKT").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
-
-function viewRWJBHDesc() {
-  document.getElementById("descRWJBH").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
-
-function viewCUMCDesc() {
-  document.getElementById("descCUMC").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
-
-function viewSinaiDesc() {
-  document.getElementById("descSinai").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
-  document.getElementById("descHK").style.display = "none";
-}
-
-function viewHKDesc() {
-  document.getElementById("descHK").style.display = "block";
-  document.getElementById("descInstructions").style.display = "none";
-  document.getElementById("descCaribou").style.display = "none";
-  document.getElementById("descFiera").style.display = "none";
-  document.getElementById("descHAX").style.display = "none";
-  document.getElementById("descCUNY").style.display = "none";
-  document.getElementById("descKT").style.display = "none";
-  document.getElementById("descRWJBH").style.display = "none";
-  document.getElementById("descSinai").style.display = "none";
-  document.getElementById("descCUMC").style.display = "none";
+// Projects dropdown menu
+function viewProjDesc(projID) {
+  var hide = document.getElementsByClassName("projectDescription");
+  for (i = 0; i < hide.length; i++) {
+    hide[i].style.display = "none"
+  }
+  document.getElementById(projID).style.display = "block";
 }

@@ -12,7 +12,7 @@
     float: left;
     left: 0;
     width: 25%;
-    height: 80vh;
+    height: 100vh;
     overflow-y: scroll;
 }
 #logoLeft > img:hover {
@@ -26,7 +26,7 @@
     background: var(--gray);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--pink);
+    background: var(--teal);
 }
 ::-webkit-scrollbar-thumb:hover {
     background: var(--orange);
@@ -42,6 +42,6 @@
     flex-direction: column;
     width: 90%;
 }
-#descCaribou, #descFiera, #descHAX, #descCUNY, #descKT, #descRWJBH, #descCUMC, #descSinai, #descHK {
+.workDescription {
     display: none;
 }
