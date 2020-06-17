@@ -35,7 +35,28 @@
   }
 
   #logoLeft {
+    width: 25% !important;
     height: auto !important;
     overflow: visible;
+  }
+
+  #descRight {
+    width: 70% !important;
+  }
+
+  .infoLeft {
+    max-width: 100% !important;
+    float: none;
+    display: block !important;
+  }
+
+  .desRight {
+    max-width: 100% !important;
+    float: none;
+    display: block !important;
+  }
+
+  .projectChooser:active .projectList {
+    display: block;
   }
 }

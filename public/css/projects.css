@@ -32,13 +32,15 @@
 .infoLeft {
     display: block;
     float: left;
-    width: 35%
+    max-width: 35%;
+    overflow-wrap: break-word;
 }
 
 .desRight {
     float: right;
-    width: 60%;
+    max-width: 60%;
     text-align: right;
+    overflow-wrap: break-word;
 }
 
 .techStack {
@@ -51,8 +53,8 @@
     background-color: var(--orange);
     color: var(--lightgray);
     padding: 10px;
-    font-size: 1.6em;
-    width: 250px;
+    font-size: 1.4em;
+    width: 200px;
     border: none;
     cursor: pointer;
     font-family: 'Quasimoda';
@@ -70,7 +72,7 @@
     display: none;
     position: absolute;
     background-color: var(--lightgray);
-    width: 250px;
+    width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
