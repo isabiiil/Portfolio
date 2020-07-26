@@ -45,3 +45,6 @@
 .workDescription {
     display: none;
 }
+#expInstructions {
+    display: block;
+}
