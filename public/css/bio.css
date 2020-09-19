@@ -14,12 +14,12 @@
 
 .contact-buttons {
     text-align: center;
-    margin: 3em 0 3em 0;
+    margin: 0.5em 0 0.5em 0;
 }
   
 .contact-buttons a {
     font-family: "Courier Prime", monospace;
     font-size: 1em;
     color: var(--gray);
-    padding: 0 0.5em 3em 0.5em;
+    padding: 0 0.5em 0.5em 0.5em;
 }

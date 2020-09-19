@@ -3,7 +3,6 @@
     width: 100vw;
     height: 100vh;
 }
-
 #landing-container canvas, #landing-overlay {
     position: absolute;
     overflow: hidden;
