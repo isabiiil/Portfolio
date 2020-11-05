@@ -10,6 +10,7 @@
         <!-- CSS Stylesheets and Fonts -->
             <!-- <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
             <link rel = "stylesheet" href = "./css/styles.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
         <!-- The core Firebase JS SDK is always required and must be listed first -->
             <script src="/__/firebase/7.14.2/firebase-app.js"></script>
@@ -37,12 +38,98 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-5THLHHC');</script>
         <!-- End Google Tag Manager -->
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+        <script src="https://kit.fontawesome.com/53dca76529.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class = "main-container" id = "freelance-container">
-            <div id = "freelance">
-                
+        <div class = "main-container" id = "services-container">
+            <h2>These are the services that Isabel can offer.</h2><h6>Contact her at +1 (347) 272-0992 or isabelabonitalla@gmail.com for further inquiries.</h6><br />
+            <div class="tab" role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#Section1" aria-controls="tutor" role="tab" data-toggle="tab"><i class="fas fa-chalkboard-teacher"></i><span>Personal Tutor</span></a></li>
+                    <li role="presentation"><a href="#Section2" aria-controls="webdev" role="tab" data-toggle="tab"><i class="fas fa-laptop-code"></i><span>Web Developer</span></a></li>
+                    <li role="presentation"><a href="#Section3" aria-controls="career" role="tab" data-toggle="tab"><i class="fas fa-briefcase"></i><span>Career Coach</span></a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content tabs">
+                    <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                        <h2>👩🏻‍🏫 Tutor</h2>
+                        <h3>Responsibilites:</h3>
+                        <p>▪ Prepare student(s) for SAT, SHSAT, ISEE, PSAT, and other standardized tests</p>
+                        <p>▪ Assist student(s) with school-assigned homework</p>
+                        <p>▪ Provide practice materials for student(s) to better understand class lessons</p>
+                        <p>▪ Supervise student's learning and studying</p>
+                        <br />
+                        <h3>Qualifications:</h3>
+                        <p><strong>Teaching Assistant @ Research Foundation of the City University of New York</strong> for 1 semester</p>
+                        <p>▪ Tutor 25 students in Computing Fundamentals class on course assignments</p>
+                        <p>▪ Assist students with lab activities and course project implementation</p>
+                        <p>▪ Assist the instructor with student feedback and class activities</p>
+                        <p><strong>Quality Manager @ Khan's Tutorial</strong> for 2 years</p>
+                        <p>▪ Promoted to manager in 7 months of instructing over 70 students in both individual and small-class settings</p>
+                        <p>▪ Yielded a 20% increase in sales and enrollments</p>
+                        <p>▪ Enabled over 239 students to get 88th percentile on the SAT and over 252 students get over 90% on state exams</p>
+                        <p>▪ Supervised and collaborated with 5 instructors who teach over 210 students for state exams and the SAT</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+                        <h2>👩🏻‍💻 Web Developer</h2>
+                        <h3>Responsibilites:</h3>
+                        <p>▪ Create websites for clients</p>
+                        <p>▪ Utilize HTML, CSS, SCSS, Javascript, React.js, Node.js, Gatsby.js, Github Pages, Firebase, AWS, or any combination of those technologies</p>
+                        <p>▪ Use Wordpress, Squarespace, Wix, Shopify, or other software and website builders</p>
+                        <br />
+                        <h3>Qualifications:</h3>
+                        <p><strong>Web Development Intern @ Caribou</strong></p>
+                        <p>Example: <a href = "http://getcaribou.com/" target="_blank" style = "color: #333; text-decoration: none;">[Company Website]</a></p>
+                        <p>▪ Built components and pages for company website using React.js and GraphQL, following the atomic design methodology</p>
+                        <p>▪ Participated in daily sprint meetings and weekly retro meetings, following the agile methodology</p>
+                        <p><strong>21 time hackathon participant, 7 time winner</strong>; Here are some examples:</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>▪ Reunited: Bringing Families Back Together</p>
+                                    <img class = "exScr" src = "./res/reunited.jpg" alt = "Reunited" />
+                                </div>
+                                <div class="col-md-6">
+                                    <p>▪ AccounTwin: Accomplish your goals today!</p>
+                                    <img class = "exScr" src = "./res/accountwin.png" alt = "AccounTwin" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>▪ House.py: Computer Vision for Housing Accessibility</p>
+                                    <img class = "exScr" src = "./res/housepy.jpg" alt = "House.py" />
+                                </div>
+                                <div class="col-md-6">
+                                    <p>▪ Plate: Avoid putting too much on your plate</p>
+                                    <img class = "exScr" src = "./res/plate.png" alt = "Plate" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section3">
+                        <h2>👩🏻‍💼 Career Coach</h2>
+                        <h3>Responsibilites:</h3>
+                        <p>▪ Mentor students on different career paths to pursue during college and beyond</p>
+                        <p>▪ Provide hands-on projects depending on career interests</p>
+                        <p>▪ Connect students with professionals in the field to shadow</p>
+                        <br />
+                        <h3>Qualifications:</h3>
+                        <p>▪ Mentor 2 students in BEAM Network</p>
+                        <p>▪ Mentor team of students in The Purple Hydrangea Project</p>
+                        <p>▪ Mentor 3 young women in The Homegirl Project</p>
+                        <p>▪ Mentor team of students as part of the Visionary Fellowship</p>
+                        <p>▪ Mentor an international student in Command Connect Tech</p>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class = "main-container" id = "footer">
+            <p>(c) 2020 Isabel Sofia V. Abonitalla</p>
         </div>
     </body>
 </html>

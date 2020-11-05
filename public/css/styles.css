@@ -7,6 +7,7 @@
 @import url("./projects.css");
 @import url("./where.css");
 @import url("./mobile.css");
+@import url("./services.css");
 
 :root {
     --light: #fbfffe;
@@ -44,8 +45,7 @@ body {
 .main-container {
     background: var(--light);
     color: var(--dark);
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding: 0vh 20vw;
 }
 
 h2 {
@@ -109,7 +109,8 @@ a:hover {
     text-align: center;
     font-size: 0.8em;
     display: block;
-    margin: 100px 0 50px 0;
+    bottom: 0;
+    margin: 100px 0 0 0;
     clear: both;
 }
 
