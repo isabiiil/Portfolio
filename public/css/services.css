@@ -104,12 +104,13 @@ a:hover,a:focus{
 }
 
 @media only screen and (max-width: 479px){
-    .tab .nav-tabs li{
-        width: 100%;
-        margin-bottom: 5px;
-        text-align: center;
-    }
-    .tab .nav-tabs li a span{
-        letter-spacing: 1px;
-        opacity: 1;
-    }
+  .tab .nav-tabs li{
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .tab .nav-tabs li a span{
+    letter-spacing: 1px;
+    opacity: 1;
+  }
+}
