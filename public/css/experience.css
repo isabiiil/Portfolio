@@ -12,7 +12,7 @@
     float: left;
     left: 0;
     width: 15%;
-    height: 100vh;
+    height: 80vh;
     overflow-y: scroll;
 }
 #logoLeft > img:hover {

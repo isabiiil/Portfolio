@@ -34,11 +34,28 @@
     padding: 0 5vw 30px 5vw !important;
   }
 
+  /* #bio-row {
+    flex-direction: column;
+    margin: 0 auto;
+  } */
+
+  /* #bio-body {
+    width: 100%;
+  }
+
+  #headshot {
+    width: 100%;
+  } */
+
   #logoLeft {
     width: 25% !important;
-    height: auto !important;
-    overflow: visible;
+    /* height: auto !important; */
+    overflow-y: scroll;
   }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+}
 
   #descRight {
     width: 70% !important;

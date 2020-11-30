@@ -121,7 +121,7 @@ a:hover {
     width: 100%;
 }
 
-#bio-body, #feature-body, .experience-body, .projects-body {
+#feature-body, .experience-body, .projects-body {
     margin-top: 0.5em;
     margin-bottom: 2em;
     margin-right: 2em;
