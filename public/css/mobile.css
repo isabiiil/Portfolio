@@ -7,7 +7,7 @@
     overflow: hidden;
     left: 10vw !important;
     width: 80vw !important;
-    padding: 0 0;
+    padding: 0 !important;
   }
 
   h1 {
@@ -18,43 +18,39 @@
     font-size: 2em !important;
   }
 
-  p {
-    font-size: 1em !important;
-  }
-
   .mobile-hide {
-    display: None !important;
+    display: none !important;
   }
 
   .rotating-text {
-    height: 2em;
+    height: 2em !important;
   }
 
   #bio-container, #feature-container, #experience-container, #projects-container{
     padding: 0 5vw 30px 5vw !important;
   }
 
-  /* #bio-row {
-    flex-direction: column;
-    margin: 0 auto;
-  } */
+  #bio-row {
+    flex-direction: column !important;
+    margin: 0 auto !important;
+  }
 
-  /* #bio-body {
-    width: 100%;
+  #bio-body {
+    width: 100% !important;
   }
 
   #headshot {
-    width: 100%;
-  } */
+    width: auto !important;
+  }
 
   #logoLeft {
     width: 25% !important;
-    /* height: auto !important; */
-    overflow-y: scroll;
+    height: auto !important;
+    overflow-y: scroll !important;
   }
 
   ::-webkit-scrollbar {
-    width: 5px;
+    width: 5px !important;
 }
 
   #descRight {
@@ -63,17 +59,27 @@
 
   .infoLeft {
     max-width: 100% !important;
-    float: none;
+    float: none !important;
     display: block !important;
   }
 
   .desRight {
     max-width: 100% !important;
-    float: none;
+    float: none !important;
     display: block !important;
   }
 
   .projectChooser:active .projectList {
-    display: block;
+    display: block !important;
   }
+
+  .exp-logo {
+    width: 50% !important;
+    padding: 0 !important;
+  }
+
+  .exp-title {
+    flex-direction: column !important;
+  }
+
 }

@@ -58,7 +58,7 @@ h3 {
     font-size: 1.8em;
 }
 
-h4,h5,h6{
+h4,h5,h6,small{
     font-family: 'Quasimoda';
 }
 p {
@@ -125,4 +125,17 @@ a:hover {
     margin-top: 0.5em;
     margin-bottom: 2em;
     margin-right: 2em;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--gray);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--teal);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--orange);
 }

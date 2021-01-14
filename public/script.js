@@ -368,3 +368,11 @@ $(document).ready(function() {
       }
   });
 });
+
+// Experience Section Timeline
+$('.exp-title').click(function(e) {
+  console.log("Clicked");
+  $(this).next().slideToggle();
+  $(this).next().next().slideToggle();
+  $(this).next().next().next().slideToggle();
+})
