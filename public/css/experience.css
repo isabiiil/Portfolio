@@ -39,17 +39,17 @@
 
 #timeline {
     border-left: 0.4em solid var(--teal);
-    background: var(--lightgray);
+    border-top: 0.4em solid var(--lightgray);
+    border-right: 0.4em solid var(--lightgray);
+    border-bottom: 0.4em solid var(--lightgray);
     margin: 0 4vw;
     line-height: 1.4em;
     padding: 2em;
-    /* padding-left: 3em; */
     list-style: none;
     text-align: left;
-    /* margin-left: 16em; */
     margin-right: 3em;
-    border-radius: 0.5em;
-    /* min-width: 22em; */
+    border-radius: 0.8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     float: right;
 }
 
