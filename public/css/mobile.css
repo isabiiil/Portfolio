@@ -82,4 +82,7 @@
     flex-direction: column !important;
   }
 
+  .proj-cards {
+    flex-direction: column;
+  }
 }

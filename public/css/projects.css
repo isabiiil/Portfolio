@@ -99,3 +99,48 @@
 .projectChooser:hover .dropbtn {
     filter: brightness(80%);
 }
+
+.proj-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.proj-card {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    border-radius: 20px;
+    margin: 2vh 2vw;
+}
+
+.activator {
+    max-width: 100%;
+    /* padding: 20px; */
+    max-height: 40vh;
+    margin: 0 auto;
+}
+
+.card-content {
+    /* z-index: 3; */
+    min-height: 30vh;
+    padding: 20px;
+}
+
+.card-content i, .proj-title i {
+    float: right;
+    position: relative;
+    right: 12px;
+}
+
+.card-reveal {
+    z-index: 4;
+    background-color: var(--lightgray);
+    display: none;
+    min-height: 30vh;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 20px;
+}

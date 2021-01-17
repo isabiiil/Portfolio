@@ -74,6 +74,10 @@
     align-items: center;
 }
 
+.exp-title h4:hover {
+    color: var(--pink);
+}
+
 #timeline .exp:before,
 #timeline .exp:after {
   position: absolute;

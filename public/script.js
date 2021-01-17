@@ -376,3 +376,21 @@ $('.exp-title').click(function(e) {
   $(this).next().next().slideToggle();
   $(this).next().next().next().slideToggle();
 })
+
+$('.card-content').click(function(e) {
+  console.log("Clicked");
+  $(this).prev().show();
+  // $(this).next().next().slideToggle();
+  // $(this).next().next().next().slideToggle();
+})
+
+$('.card-reveal').click(function(e) {
+  console.log("Clicked");
+  $(this).hide();
+})
+
+$(document).ready(function() {
+  var reveal = $('.card-reveal').height();
+  var content = $('.card-content').height();
+  (reveal > content) ? $('.card-content').height(reveal) : $('.card-reveal').height(content);
+})
