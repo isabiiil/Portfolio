@@ -42,16 +42,29 @@
             })(window,document,'script','dataLayer','GTM-5THLHHC');</script>
         <!-- End Google Tag Manager -->
 
-        <!-- Hotjar Tracking Code for https://isabiiil.tech/ -->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+
         <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:2121727,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCtpXGDipPBmhC4eckPkF1xJ2qnQN0hzDc",
+            authDomain: "isabiiil-adb96.firebaseapp.com",
+            databaseURL: "https://isabiiil-adb96.firebaseio.com",
+            projectId: "isabiiil-adb96",
+            storageBucket: "isabiiil-adb96.appspot.com",
+            messagingSenderId: "853540834411",
+            appId: "1:853540834411:web:2ed2758a43e6a0bd24f52e",
+            measurementId: "G-7LZHS6XHD7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
         </script>
 
     </head>
@@ -836,7 +849,7 @@
                             </div>
                         </div>
                         <div id = "projInstructions" class = "projectDescription">
-                            <p>As of March 2021, I have participated in 32 hackathons and won an award at 9 of them. Choose a project through the dropdown menu above to learn more.</p> 
+                            <p>As of April 2021, I have participated in 35 hackathons and won an award at 11 of them. Choose a project through the dropdown menu above to learn more.</p> 
                         </div>
                         <div id = "descPlate" class = "projectDescription">
                             <img class = "screen" src = "./res/plate.png" alt = "Plate" />
