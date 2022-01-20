@@ -331,6 +331,7 @@ $("#landing-container").click(function() {
 //   document.getElementById("descSinai").style.display = "none";
 //   document.getElementById("descCUMC").style.display = "none";
 // }
+
 function viewWorkDesc(jobID) {
   var hide = document.getElementsByClassName("workDescription");
   for (i = 0; i < hide.length; i++) {
@@ -338,7 +339,6 @@ function viewWorkDesc(jobID) {
   }
   document.getElementById(jobID).style.display = "block"; 
 }
-
 
 // Projects dropdown menu
 function viewProjDesc(projID) {
