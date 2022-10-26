@@ -91,7 +91,7 @@
                                 <span class = "word col4">an entrepreneur.</span>
                             </h1>
                         </div>
-                        <p id = "prev-exp">CUNY Hunter College | Microsoft | Major League Hacking</p>
+                        <p id = "prev-exp">CUNY Hunter College | Major League Hacking</p>
                     </div>
                     <div id = "intro-arrow">
                         <div class = "arrow-part">
@@ -111,17 +111,17 @@
                     <span class = "hover">about.</span>
                     </h2>
                     <div id="bio-row">
-                        <p id = "bio-body">
-                            I am Isabel Sofia V. Abonitalla, a computer science undergraduate student at CUNY Hunter College. I'm currently a software engineer intern at Microsoft in the Azure Planned Maintenance team and a Hackathon Coach at Major League Hacking. I also serve as the Lead Organizer of CUNY Hackathon, NYC's largest collegiate hackathon, as well as a <a id = "services-link" href="./services.html" target="_blank">[freelance web developer and personal tutor]</a>. This summer, I am also in Hack House, a web3 residency program for software engineers. 
-                        <br />
-                        <br />
-                            Outside of programming and academics, I take care of my cats Roshi and Momo. I also enjoy watching dramatic TV shows, playing video games, eating double cheeseburgers, and walking the streets of New York City.
-                        <br />
-                        <br />
-
-                        </p>
+                        <div id="bio-left">
+                            <p id = "bio-body">
+                                I am Isabel Sofia V. Abonitalla, a computer science undergraduate student at CUNY Hunter College. I'm currently a  Hackathon Coach at Major League Hacking. I also serve as the Lead Organizer of CUNY Hackathon, NYC's largest collegiate hackathon, as well as a <a id = "services-link" href="./services.html" target="_blank">[freelance web developer and personal tutor]</a>. This summer, I am also in Hack House, a web3 residency program for software engineers. 
+                                <br />
+                                <br />
+                                Want to learn more? Click <button onclick="randomFact()">here</button> to see a random fun fact about me!
+                            </p>
+                            <p id="factDisplay"><!-- fun fact will show here --></p>
+                        </div>
                         <div id="headshot">
-                            <img src="res/isa.PNG" alt="Isabel Abonitalla" />
+                            <img src="res/isa.jpg" alt="Isabel Abonitalla" id="headshot" />
                         </div>
                     </div>
                     <p>Let's keep the conversation going! Contact me:</p>
@@ -149,7 +149,8 @@
                     <p id = "feature-body">
                         <ul>
                             <li>
-                                <a target="_blank" href="https://launchhouse.livecontrol.tv/f7066703">Hack House 3: Demo Day NYC</a>
+                                <a target="_blank" href="https://launchhouse.livecontrol.tv/f7066703">Hack House 3: Demo Day NYC </a><small>(Timestamp 1:25:03)
+                                </small>
                             </li><br /><br />
                             <li>
                                 <a target="_blank" href="https://youtu.be/bTqJFxEVS5c?t=1102">MLH Hackcon IX Lightning Talk: 4 Ways You Can Support Your Hackers</a>
@@ -198,35 +199,6 @@
                             <li class="exp">
                                 <div class="exp-info">
                                     <div class="exp-title">
-                                        <img src="res/ctf.png" class="exp-logo" style="margin-top: 2vh;" />
-                                        <h4>
-                                            Hackathon Intern @ Children's Tumor Foundation
-                                        </h4>
-                                    </div>
-                                    <h5 class="exp-location">
-                                        New York, NY<br />
-                                        August 2022 - Present
-                                    </h5>
-                                    <p class="exp-details">
-                                        ▪ Facilitate Hackathon communications to CTF networks, including correspondence with researchers, clinicians, patients, media, mentors, and hackathon participants.
-                                        <br /><br />
-                                        ▪ Actively support Hackathon participants by understanding their project needs and directing them to resources through the Slack channel.
-                                        <br /><br />
-                                        ▪ Monitor the Hackathon website and ensure content remains current.
-                                        <br /><br />
-                                        ▪ Assist CTF staff and Hackathon partners with all virtual events (e.g. Kickoff, team formation webinar, pitch presentations, judges’ webinar, awards presentation), including: back-end support with Zoom meeting / webinar management, monitoring chat during meetings, post-production follow up with video postings.
-                                        <br /><br />
-                                        ▪ Coordinate with Finance to distribute cash prizes to winners.
-                                        <br /><br />
-                                        ▪ Participate in weekly meetings with Hackathon partners, production company and internal staff working group.
-                                        <br /><br />
-                                        <em>The Children’s Tumor Foundation is a non-profit dedicated to improving the health and well-being of individuals and families affected by a rare genetic disease called neurofibromatosis (NF). Our mission is to propel drug research and development by funding research, supporting patients, raising awareness of NF, and establishing best practices in clinical care for affected individuals.</em>
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="exp">
-                                <div class="exp-info">
-                                    <div class="exp-title">
                                         <img src="res/msft.png" class="exp-logo" style="margin-top: 2vh;" />
                                         <h4>
                                             Software Engineer Intern @ Microsoft
@@ -234,7 +206,7 @@
                                     </div>
                                     <h5 class="exp-location">
                                         Atlanta, GA<br />
-                                        May 2022 - Present
+                                        May 2022 - August 2022
                                     </h5>
                                     <p class="exp-details">
                                         ▪ Implement a rollback feature for the Impactful Orchestrator in C# with the Azure Planned Maintenance team

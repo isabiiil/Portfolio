@@ -156,7 +156,7 @@ class Visual {
 
 new Visual();
 
-
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 // Rotating Text credit to alphardex
 var words = document.querySelectorAll(".word");
@@ -202,7 +202,7 @@ var rotateText = function() {
 setTimeout(rotateText, 1000);
 setInterval(rotateText, 3000);
 
-
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 // Jump to Bio
 $("#landing-container").click(function() {
@@ -212,7 +212,43 @@ $("#landing-container").click(function() {
     duration = 1000);
 });
 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
+// Random Fun Fact Generator
+var facts = [
+  'I have seen 2000 hours of anime.',
+  'I was once allergic to cats; then I had Roshi and Momo for 3 years, and I am no longer allergic.',
+  'I\'ve cosplayed at conventions before: Monkey D. Luffy, Violet Evergarden, Kitagawa Marin, and more.',
+  'I have over 60 Funko Pops. I also collect stickers and pins.',
+  'I was born and raised in the Philippines. I immigrated to the United States when I was 16 years old.',
+  'My favorite color is pink. I prefer light pink over dark pink.',
+  'I don\'t really drink coffee. I prefer soda.',
+  'I won $5 at a scratch-off lottery ticket once.',
+  'My favorite restaurant is Gyu-Kaku. They\'re a Japanese BBQ restaurant. My favorite cut of meat is the bistro hanger steak.',
+  'I was born in a city called Cagayan de Oro. It\'s in the Philippines. It\'s a very small city, but it\'s very beautiful.',
+  'I was raised as an only child, but now I have half-sisters. They\'re over in Dubai with my biodad.',
+  'One of my favorite books growing up was the Percy Jackson series by Rick Riordan.',
+  'When I was younger, I wanted to be a pop star! I was inspired by Sarah Geronimo, a Filipino singer.',
+  'During my entrance exam for kindergarten, they asked me to color in a picture. I confidently told them the sun was green.',
+  'My favorite anime is Fullmetal Alchemist: Brotherhood. I also love Studio Ghibli movies, Code Geass, My Hero Academia, and Naruto.',
+  'My favorite anime genre is isekai. I love the concept of being transported to another world.',
+  'I don\'t, can\'t, and won\'t drive. I\'m terrified of driving.',
+  "I used to play badminton competitively.",
+  'Before going into software engineering, I was in biomedical research.',
+  'I\'m a huge fan of Marvel. My favorite character is Wanda Maximoff, aka Scarlet Witch. I\'ve loved since before Elizabeth Olsen played her in the MCU, all the way back to the X-Men comics.',
+  'I mostly paint my own nails. I can even do some nail art!',
+  'My favorite video game is Breath of the Wild. Can\'t wait for Tears of the Kingdom. I\'ve also played a bit of Link\'s Awakening and Ocarina of Time.',
+  'My hair color is currently fuschia.',
+  'I\'m near-sighted. I wear glasses but not contacts.',
+];
+
+function randomFact() {
+  var fact = facts[Math.floor(Math.random() * facts.length)];
+  document.getElementById('factDisplay').innerHTML = fact;
+  // document.getElementById('factDisplay').style.color = "grey";
+}
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 // Experience descriptions
 // function viewCaribouDesc() {
@@ -349,6 +385,8 @@ function viewProjDesc(projID) {
   document.getElementById(projID).style.display = "block";
 }
 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+
 // Services page folder aesthetic
 $(document).ready(function() {
   $("#content").find("[id^='tab']").hide(); // Hide all content
@@ -368,6 +406,8 @@ $(document).ready(function() {
       }
   });
 });
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 // Experience Section Timeline
 $('.exp-title').click(function(e) {
@@ -394,3 +434,5 @@ $(document).ready(function() {
   var content = $('.card-content').height();
   (reveal > content) ? $('.card-content').height(reveal) : $('.card-reveal').height(content);
 })
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 

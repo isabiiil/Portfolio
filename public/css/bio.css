@@ -30,13 +30,19 @@
 }
 
 #bio-body {
+    /* width: 70%; */
+    margin: 4vw 0 1vw 0;
+}
+
+#bio-left {
+    display: flex;
+    flex-direction: column;
     width: 70%;
-    margin: auto 0;
 }
 
 #headshot {
-    width: 20%;
-    height: auto;
+    /* width: 20%; */
+    height: 50vh;
     object-fit: cover;
     margin: 0 5%;
     /* padding: 4px 32px 2px 4px;
