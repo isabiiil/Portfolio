@@ -78,6 +78,10 @@
     color: var(--pink);
 }
 
+.exp-present {
+    color: var(--teal);
+}
+
 #timeline .exp:before,
 #timeline .exp:after {
   position: absolute;
