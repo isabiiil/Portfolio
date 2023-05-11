@@ -216,7 +216,7 @@ $("#landing-container").click(function() {
 
 // Random Fun Fact Generator
 var facts = [
-  'I have seen 2250 hours of anime.',
+  'I have seen 2300 hours of anime.',
   'I was once allergic to cats; then I had Roshi and Momo for 3 years, and I am no longer allergic.',
   'I\'ve cosplayed at conventions before: Monkey D. Luffy, Violet Evergarden, Kitagawa Marin, and more.',
   'I have nearly 100 Funko Pops. I also collect stickers and pins.',
